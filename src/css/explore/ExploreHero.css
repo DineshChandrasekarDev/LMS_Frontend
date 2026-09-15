@@ -1,0 +1,157 @@
+.explore-hero {
+  background: linear-gradient(135deg, #f8fbff, #eef4ff);
+  border-radius: 24px;
+  padding: 50px;
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.hero-left {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: #e8f0ff;
+  color: #0d6efd;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hero-title {
+  margin-top: 20px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #1e293b;
+}
+
+.hero-subtitle {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.hero-search {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 550px;
+
+  background: white;
+  border-radius: 50px;
+  padding: 8px;
+
+  display: flex;
+  align-items: center;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.hero-search svg {
+  margin-left: 15px;
+  color: #94a3b8;
+}
+
+.hero-search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 12px;
+  font-size: 15px;
+  background: transparent;
+}
+
+.hero-search button {
+  border: none;
+  background: #0d6efd;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 40px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero-search button:hover {
+  background: #0b5ed7;
+}
+
+.hero-right {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-right img {
+  width: 320px;
+  max-width: 100%;
+}
+.browse-btn {
+  margin-top: 25px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.browse-btn:hover {
+  background: #1d4ed8;
+}
+.explore-hero {
+  background: linear-gradient(
+    135deg,
+    #f7f4ff,
+    #f2f5ff
+  );
+  border-radius: 24px;
+  padding: 40px 50px;
+  min-height: 300px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left {
+  max-width: 500px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 20px 0;
+}
+
+.hero-subtitle {
+  color: #64748b;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.hero-right img {
+  width: 320px;
+  max-width: 100%;
+}
+.browse-btn {
+  margin-top: 25px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+}

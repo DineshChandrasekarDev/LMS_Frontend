@@ -1,0 +1,44 @@
+.progress-hero {
+  background: #eef1ff;
+  border-radius: 30px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.hero-tag {
+  background: #ffe9c9;
+  color: #f59e0b;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.progress-hero h1 {
+  margin-top: 25px;
+  font-size: 64px;
+  font-weight: 800;
+  color: #0f2d68;
+}
+
+.progress-hero p {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #667085;
+  max-width: 500px;
+}
+
+.progress-hero button {
+  margin-top: 25px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 15px 28px;
+  font-weight: 600;
+}
+
+.progress-hero img {
+  width: 100%;
+  max-width: 420px;
+}

@@ -1,0 +1,87 @@
+.course-progress-card{
+    background:#fff;
+    margin-top:25px;
+    padding:30px;
+    border-radius:24px;
+    border:1px solid #edf1f7;
+}
+
+.course-progress-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.course-progress-header h3{
+    font-size:32px;
+    font-weight:700;
+    color:#12284c;
+}
+
+.course-progress-header a{
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:600;
+}
+
+.course-row{
+    display:grid;
+    grid-template-columns: 320px 1fr 70px;
+    gap:25px;
+    align-items:center;
+    padding:18px 0;
+    border-bottom:1px solid #eef2f7;
+}
+
+.course-row:last-child{
+    border-bottom:none;
+}
+
+.course-info{
+    display:flex;
+    gap:15px;
+    align-items:center;
+}
+
+.course-icon{
+    width:55px;
+    height:55px;
+    border-radius:15px;
+    background:#f4f7ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+}
+
+.course-info h6{
+    margin:0;
+    font-size:18px;
+    font-weight:700;
+    color:#12284c;
+}
+
+.course-info span{
+    color:#7b8794;
+    font-size:14px;
+}
+
+.course-bar{
+    height:14px;
+    background:#e8eefc;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.course-fill{
+    height:100%;
+    background:#2f66eb;
+    border-radius:20px;
+}
+
+.course-percent{
+    text-align:right;
+    font-weight:700;
+    color:#12284c;
+}

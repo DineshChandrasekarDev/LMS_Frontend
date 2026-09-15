@@ -1,0 +1,45 @@
+/* LiveClassBanner.css */
+
+.live-banner {
+  background: #f4f2ff;
+  border-radius: 24px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.live-badge {
+  background: #ffe7e7;
+  color: #ff4d4f;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.live-title {
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #16213e;
+}
+
+.live-text {
+  color: #667085;
+  font-size: 18px;
+}
+
+.banner-buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.banner-buttons .btn {
+  padding: 12px 24px;
+  border-radius: 12px;
+}
+
+.live-banner-img {
+  width: 350px;
+  max-width: 100%;
+}

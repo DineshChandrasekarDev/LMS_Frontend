@@ -1,0 +1,128 @@
+.right-progress-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.progress-side-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  border: 1px solid #edf1f7;
+}
+
+.card-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.card-title-row h4 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #12284c;
+}
+
+.card-title-row a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.achievement-item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.achievement-item:last-child {
+  border-bottom: none;
+}
+
+.achievement-item svg {
+  font-size: 24px;
+  color: #f59e0b;
+}
+
+.achievement-item h6 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.achievement-item span {
+  color: #7b8794;
+  font-size: 14px;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-item svg {
+  color: #3467eb;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.activity-item h6 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.activity-item span {
+  color: #7b8794;
+  font-size: 13px;
+}
+
+.activity-item small {
+  margin-left: auto;
+  color: #94a3b8;
+}
+
+.motivation-card {
+  background: #eef4ff;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.target-icon {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.motivation-card h3 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #12284c;
+  margin-bottom: 15px;
+}
+
+.motivation-card p {
+  color: #64748b;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.motivation-card button {
+  width: 100%;
+  border: none;
+  background: #3467eb;
+  color: white;
+  border-radius: 12px;
+  padding: 14px;
+  font-weight: 600;
+}

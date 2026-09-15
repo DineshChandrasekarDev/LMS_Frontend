@@ -1,0 +1,36 @@
+.assignment-banner {
+  background: #f3f0ff;
+  border-radius: 25px;
+  padding: 40px;
+}
+
+.assignment-badge {
+  background: #ffe5e5;
+  color: #ff5f5f;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.assignment-title {
+  font-size: 58px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #0b1f52;
+}
+
+.assignment-text {
+  color: #667085;
+  font-size: 18px;
+}
+
+.assignment-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.assignment-banner-img {
+  width: 320px;
+}

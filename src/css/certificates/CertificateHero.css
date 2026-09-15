@@ -1,0 +1,50 @@
+.certificate-hero {
+  background: #eef3ff;
+  border-radius: 24px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.hero-left {
+  max-width: 500px;
+}
+
+.hero-tag {
+  background: #ffe7bf;
+  color: #ff9800;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.hero-left h1 {
+  font-size: 68px;
+  font-weight: 800;
+  color: #12284c;
+  line-height: 1.1;
+  margin: 20px 0;
+}
+
+.hero-left p {
+  color: #6b7280;
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.hero-left button {
+  background: #3467eb;
+  border: none;
+  color: white;
+  padding: 15px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.hero-right img {
+  width: 420px;
+}

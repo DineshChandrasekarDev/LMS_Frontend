@@ -1,0 +1,75 @@
+.top-categories-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.categories-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.categories-header h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.categories-header span {
+  color: #2f66ff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.category-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.category-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.category-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+}
+
+.blue {
+  background: #eef2ff;
+  color: #4f6fff;
+}
+
+.green {
+  background: #eafbf3;
+  color: #25b36a;
+}
+
+.purple {
+  background: #f3ebff;
+  color: #9b5cff;
+}
+
+.orange {
+  background: #fff1df;
+  color: #ff9f1c;
+}
+
+.pink {
+  background: #ffe9ef;
+  color: #ff5b93;
+}

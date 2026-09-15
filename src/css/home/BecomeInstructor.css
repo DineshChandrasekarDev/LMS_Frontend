@@ -1,0 +1,15 @@
+.instructor-card{
+    margin-top:20px;
+    background:#e8f8f1;
+    border-radius:20px;
+    padding:25px;
+    position:relative;
+    overflow:hidden;
+}
+
+.instructor-card img{
+    width:120px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}

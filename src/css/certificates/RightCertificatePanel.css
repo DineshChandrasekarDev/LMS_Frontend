@@ -1,0 +1,177 @@
+.right-certificate-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.certificate-side-card {
+  background: #fff;
+  border: 1px solid #edf1f7;
+  border-radius: 22px;
+  padding: 24px;
+}
+
+.panel-header h4 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #12284c;
+}
+
+/* Goal Card */
+
+.goal-card {
+  background: #eef4ff;
+}
+
+.goal-icon {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.goal-card h3 {
+  color: #12284c;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.goal-card p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.goal-progress {
+  height: 10px;
+  background: #dbe6ff;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.goal-fill {
+  width: 80%;
+  height: 100%;
+  background: #3366e8;
+}
+
+/* Achievement */
+
+.achievement-box {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.achievement-box svg {
+  font-size: 30px;
+  color: #f59e0b;
+}
+
+.achievement-box h6 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.achievement-box span {
+  color: #7b8794;
+  font-size: 14px;
+}
+
+/* Statistics */
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.stat-row:last-child {
+  border-bottom: none;
+}
+
+.stat-row span {
+  color: #64748b;
+}
+
+.stat-row strong {
+  color: #12284c;
+}
+
+/* Recommended */
+
+.recommended-course {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.recommended-course svg {
+  color: #3366e8;
+  font-size: 22px;
+}
+
+.recommended-course h6 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.recommended-course span {
+  color: #7b8794;
+  font-size: 14px;
+}
+
+.explore-btn {
+  width: 100%;
+  border: none;
+  background: #3366e8;
+  color: white;
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Download Card */
+
+.download-card {
+  text-align: center;
+  background: #f8fbff;
+}
+
+.download-icon {
+  font-size: 50px;
+  color: #3366e8;
+  margin-bottom: 15px;
+}
+
+.download-card h4 {
+  color: #12284c;
+  margin-bottom: 10px;
+}
+
+.download-card p {
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.download-all-btn {
+  width: 100%;
+  border: none;
+  background: #12284c;
+  color: white;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+}

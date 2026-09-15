@@ -1,0 +1,36 @@
+.discussion-hero{
+  background:#f4f7ff;
+  border-radius:24px;
+  padding:50px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:25px;
+}
+
+.discussion-left{
+  max-width:500px;
+}
+
+.discussion-left h1{
+  font-size:60px;
+  font-weight:700;
+  color:#0f2d68;
+}
+
+.discussion-left p{
+  font-size:20px;
+  color:#667085;
+}
+
+.discussion-left button{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:14px 30px;
+  border-radius:12px;
+}
+
+.discussion-right img{
+  width:450px;
+}

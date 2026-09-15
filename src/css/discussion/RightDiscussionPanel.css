@@ -1,0 +1,29 @@
+.community-card{
+  background:white;
+  border:1px solid #eef2f7;
+  border-radius:20px;
+  padding:25px;
+  margin-bottom:20px;
+}
+
+.panel-header{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+}
+
+.overview-item{
+  display:flex;
+  gap:12px;
+  margin-bottom:20px;
+  font-size:18px;
+}
+
+.topic-row{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:15px;
+  padding:10px;
+  background:#f7f9fc;
+  border-radius:10px;
+}
