@@ -1,0 +1,44 @@
+.bookmark-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+  gap: 20px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button {
+  background: white;
+  border: 1px solid #dbe3f1;
+  color: #0f2f6d;
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filter-buttons button:hover {
+  border-color: #2563eb;
+}
+
+.filter-buttons button.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.filter-sort select {
+  padding: 14px 20px;
+  border-radius: 12px;
+  border: 1px solid #dbe3f1;
+  min-width: 170px;
+  font-weight: 600;
+  color: #0f2f6d;
+  outline: none;
+}

@@ -16,6 +16,9 @@ import Quizzes from "./pages/Quizzes/Quizzes";
 import Progress from "./pages/Progress/Progress";
 import Certificates from "./pages/certificates/Certificates";
 import Discussion from "./pages/Discussion/Discussion";
+import Bookmarks from "./pages/Bookmarks/Bookmarks";
+import Profile from "./pages/Profile/Profile";
+import Settings from "./pages/Settings/Settings";
 
 function App() {
     const [isLoggedIn, setIsLoggedIn] = useState(localStorage.getItem("loggedIn") === "true");
@@ -71,6 +74,15 @@ function App() {
 )}
 {activePage === "discussion" && (
 <Discussion />
+)}
+{activePage === "bookmarks" && (
+<Bookmarks />
+)}
+{activePage === "profile" && (
+<Profile />
+)}
+{activePage === "settings" && (
+<Settings />
 )}
 
         </div>

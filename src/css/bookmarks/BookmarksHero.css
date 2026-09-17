@@ -1,0 +1,65 @@
+.bookmarks-hero {
+  background: #f4f7ff;
+  border-radius: 24px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.bookmarks-left {
+  flex: 1;
+}
+
+.bookmark-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.bookmarks-left h1 {
+  font-size: 58px;
+  font-weight: 800;
+  color: #0f2f6d;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.bookmarks-left p {
+  font-size: 22px;
+  color: #64748b;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+.explore-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.explore-btn:hover {
+  background: #1d4ed8;
+}
+
+.bookmarks-right {
+  flex: 1;
+  text-align: center;
+}
+
+.bookmarks-right img {
+  width: 100%;
+  max-width: 560px;
+}

@@ -1,0 +1,96 @@
+.settings-hero {
+  background: #f5f8ff;
+  border-radius: 30px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.settings-left {
+  flex: 1;
+  max-width: 600px;
+}
+
+.settings-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.settings-left h1 {
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #0f2b6b;
+  margin-bottom: 25px;
+}
+
+.settings-left p {
+  font-size: 24px;
+  color: #64748b;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  max-width: 520px;
+}
+
+.settings-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.settings-btn:hover {
+  background: #1d4ed8;
+}
+
+.settings-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.settings-right img {
+  max-width: 100%;
+  width: 550px;
+  object-fit: contain;
+}
+
+@media (max-width: 992px) {
+
+  .settings-hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 35px;
+  }
+
+  .settings-left h1 {
+    font-size: 42px;
+  }
+
+  .settings-left p {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .settings-right {
+    margin-top: 30px;
+  }
+
+  .settings-right img {
+    width: 100%;
+    max-width: 400px;
+  }
+}

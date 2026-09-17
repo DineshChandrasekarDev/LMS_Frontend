@@ -27,9 +27,9 @@ const Sidebar = ({ setActivePage }) => {
     { icon: <FaChartBar />, text: "Progress",page:"progress" },
     { icon: <FaCertificate />, text: "Certificates",page:"certificates" },
     { icon: <FaComments />, text: "Discussion" ,page:"discussion" },
-    { icon: <FaBookmark />, text: "Bookmarks" },
-    { icon: <FaUser />, text: "Profile" },
-    { icon: <FaCog />, text: "Settings" }
+    { icon: <FaBookmark />, text: "Bookmarks" ,page:"bookmarks"},
+    { icon: <FaUser />, text: "Profile" ,page:"profile"},
+    { icon: <FaCog />, text: "Settings" ,page:"settings"}
   ];
 const handleLogout = () => {
   localStorage.removeItem("loggedIn");
